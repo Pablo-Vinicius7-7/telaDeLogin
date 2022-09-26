@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_8___75wdjuj_109">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="349dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="30dp"
+        android:background="#707070"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:text="E-mail"
+
+        android:textAlignment="gravity"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="349dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="30dp"
+        android:background="#707070"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Senha"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</RelativeLayout>
